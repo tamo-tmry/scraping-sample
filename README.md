@@ -37,19 +37,3 @@
    ```
    npm install
    ```
-
-4. `.env` ファイルを作成し、環境変数を設定します。
-
-   ```
-   LINE_CHANNEL_ACCESS_TOKEN=your_channel_access_token
-   LINE_CHANNEL_SECRET=your_channel_secret
-   LINE_USER_ID=your_user_id
-   ```
-
-## 使用方法
-
-スクレイピング対象のウェブサイトを設定し、プロジェクトを実行します。
-
-    node sample.js
-
-以上で、設定した LINE ユーザーにスクレイピング結果のメッセージが送られます。
